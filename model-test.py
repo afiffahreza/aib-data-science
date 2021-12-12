@@ -3,4 +3,5 @@ import pickle
 
 model = pickle.load(open('model.pkl', 'rb'))
 # lat, lon, barea, larea, nbed, nbath, gar
-print(model.predict([[-6, 108, 300, 300, 3, 3, 0]]))
+num = model.predict([[500, 500, 3, 3]])
+print(num[0]*10000000)
