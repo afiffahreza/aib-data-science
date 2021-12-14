@@ -17,7 +17,7 @@ lorem ipsum
 Berdasarkan masalah yang ada, kami merumuskan solusi berupa pembuatan sistem yang dapat memberikan prediksi harga properti sesuai input pengguna yaitu luas bangunan, luas tanah, jumlah kamar, dan jumlah kamar mandi. Dengan website ini, diharapkan adanya kenaikan jumlah pembelian properti dari situs karena orang yang awam properti juga dapat mencoba untuk berinvestasi properti berdasarkan prediksi harga dari sistem kami.
 
 ## Data
-Data didapat dari web scraping rumah123.com, dengan menggunakan web scraper pada link GitHub repository <a href="https://github.com/tugusav/Rumah123-Data-Analysis" target="_blank">berikut</a>
+Data didapat dari web scraping rumah123.com, dengan menggunakan web scraper pada link GitHub repository <a href="https://github.com/tugusav/Rumah123-Data-Analysis" target="_blank">berikut</a>. 
 Data-data yang dipakai adalah harga properti, lokasi properti, luas tanah properti, dan banyaknya ruangan pada properti.
 
 ## Akses Website
