@@ -3,11 +3,14 @@
 18219014 - Zarfa Naida Pratista  
 18219058 - Afif Fahreza  
 
+**Deployment Link: https://prediksi-properti.herokuapp.com/**  
+
 ## Deskripsi Perusahan
 Rumah123.com adalah sebuah situs pencarian properti di Indonesia. Situs ini juga menyediakan berita dan fitur pemberitahuan tentang properti. Ada juga beberapa perangkat yang dapat digunakan seperti Kalkulator KPR untuk melakukan kalkulasi sebelum membeli properti. Dengan lebih dari 900,000 listing, rumah123.com dapat membantu masyarakat Indonesia dalam menemukan rumah mereka dan investasi properti.
 
 ## Masalah
 Orang-orang yang masih awam terhadap bidang properti masih kesulitan memilih properti yang berpeluang baik untuk investasi, sehingga tidak banyak menggunakan situs ini. Hal itu dikarenakan banyaknya masyarakat yang belum mengetahui cara melakukan perhitungan prediksi harga dari properti. Penggunaan situs rumah123.com tentu akan meningkat jika orang-orang yang tidak mengerti tentang bidang properti tetap bisa mengetahui peluang investasi tiap properti yang ada pada situs.  
+
 **Pertanyaan:**  
 Bagaimana agar orang yang awam properti tetap bisa rutin menggunakan situs untuk berinvestasi properti?  
 **Pengukuran Keberhasilan:**  
@@ -24,5 +27,10 @@ Data didapat dari web scraping rumah123.com, dengan menggunakan web scraper pada
 Berikut merupakan hasil model yang telah kami deploy.
 Link: https://prediksi-properti.herokuapp.com/
 
-
-
+## Cara menjalankan web di lokal
+```bash
+git clone https://github.com/afiffahreza/aib-data-science.git
+pip install -r requirements.txt
+python app.py
+```
+Model bisa diupdate dengan menjalankan file [rumah123-predict.ipynb](https://github.com/afiffahreza/aib-data-science/blob/main/rumah123-predict.ipynb)
